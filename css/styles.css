@@ -1,0 +1,82 @@
+body,
+html{
+    margin: 0;
+    padding: 0; 
+    /*padding - remove qqr espaçamento interno do corpo da página */
+    height: 100%;
+}
+nav{
+    background-color: black;
+    padding: 20px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .nav-links ul{
+    margin-left: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+nav .nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+}
+nav .nav-login a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links a:hover{
+    background-color: darkgrey;
+}
+.secao{
+    border: solid 1px aliceblue;
+    height: 100%;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 14px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+form{
+    padding: 40px;
+    background-color:rgb(237, 189, 237);
+    border-radius: solid 4px white;
+    width: 320px;
+    /* margin: auto - centraliza o formulario horizontalmente na pag */
+    margin: auto;
+    display: block;
+    margin-top: 220px;
+}
+input{
+    width: 90%;
+    padding: 6px;
+    margin-bottom: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#notifica-email, #notifica-sms{
+    width: 15px;
+}
+button{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#voltar a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
