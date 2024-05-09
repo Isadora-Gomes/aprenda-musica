@@ -5,34 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./css/styles.css">
+   <link rel="shortcut icon" type="imagex/png" href="./img/logo.png">
     <title>Página de Login</title>
 </head>
 <body>
-    <form>
-        <div>
+    <h1>Cadastre-se já!</h1>
+    <img id="img-login" src="./img/logo.png" alt="Logo da empresa Aprenda Música">
+    <form id="fundo">
+        <div class="formulario">
             <label for="username">Usuário:</label>
             <input type="text" id="username" placeholder="Digite seu nome" required>
         </div>
-        <div>
+        <div class="formulario">
             <label for="password">Senha:</label>
             <input type="password" id="password" placeholder="Digite sua senha" required>
         </div>
-        <div>
+        <div class="formulario">
             <label>Preferência de notificações</label>
             <input type="radio" name="x" id="notifica-email" value="email">
             <label>E-mail</label>
             <input type="radio" name="x" id="notifica-sms" value="sms">
             <label>SMS</label>
         </div>
-        <div>
+        <div class="formulario">
             <button type="button">Entrar</button>  
         </div>
-        <div id="voltar">
+        <div id="voltar" class="formulario">
             <a href="index.html">Voltar</a>
         </div>
     </form>
     <footer>
-        <p>Aqui temos um footer fixo!</p>
+        <p>Entre em contato pelo nosso instagram:</p>
+        <p>@isadgs @analiv_lopes</p>
     </footer>
 </body>
 </html>
