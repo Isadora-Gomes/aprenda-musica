@@ -171,3 +171,14 @@ button{
     margin-top: 20px;
     box-shadow: rgba(46, 46, 240, 0.4) -10px 10px, rgba(59, 46, 240, 0.3) -20px 20px, rgba(46, 46, 240, 0.2) -30px 30px, rgba(46, 65, 240, 0.1) -40px 40px;
 }
+ol li{
+    font-size: 30px;
+    margin-left: 40%;
+}
+ol li a {
+    text-decoration: none;
+    color: black;
+}
+#footer2{
+    margin-top: 90px;
+}
